@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #c93434;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.chinese {
+  font-family: 'ZCOOL KuaiLe', sans-serif;
+}
+
+footer {
+  background-color: #c93434;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+  text-align: center;
+  background-color: #d4813d;
+  padding: 10px;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+}
+
+/* Main Content Styles */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-wrapper h1 {
+    font-size: 2vw;  
+}
+.content-wrapper h2 {
+    font-size: 1vw;  
+}
+.content-wrapper h3 {
+    font-size: 1vw;  
+}
+
+/* Menu Styles */
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.menu-item h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.menu-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.centered-image {
+  text-align: center;
+}
+
+.centered-image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.map-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#map {
+  position: relative;
+  width: 80%;
+  height: 400px;
+}
+
+nav .hidden-div {
+  visibility: hidden;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .menu {
+    grid-template-columns: 1fr;
+  }
+  .title, .chinese {
+    font-size: 10vw;
+  }
+  .content-wrapper h1 {
+    font-size: 5vw;  
+  }
+  .content-wrapper h2 {
+    font-size: 3vw;  
+  }
+  .content-wrapper h3 {
+    font-size: 3vw;  
+  }
+}
+
+@media screen and (max-width: 410px) {
+  nav a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 336px) {
+  nav a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 292px) {
+  nav a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 266px) {
+  nav a {
+    visibility: hidden;
+  }
+  nav .hidden-div {
+    visibility: visible;
+  }
+}
