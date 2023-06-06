@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Mochiy+Pop+P+One&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Mochiy Pop P One', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+
+    /* Header Styles */
+    header {
+      background-color: #c93434;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .chinese {
+      font-family: 'ZCOOL KuaiLe', sans-serif;
+    }
+    
+
+    footer {
+      background-color: #c93434;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Navigation Styles */
+    nav {
+      text-align: center;
+      background-color: #d4813d;
+      padding: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 10px;
+    }
+
+    /* Main Content Styles */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Menu Styles */
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .menu-item {
+      background-color: #f2f2f2;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-item img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .menu-item h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .menu-item p {
+      margin: 0;
+      font-size: 14px;
+      color: #777;
+    }
+
+    .centered-image {
+      text-align: center;
+    }
+    
+    .centered-image img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Responsive Styles */
+    @media screen and (max-width: 600px) {
+      .menu {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Little Wall Restaurant</h1>
+    <h1 class=chinese>小城小食</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="location.html">Location</a>
+  </nav>
+
+  <div class="content-wrapper">
+    <h1>91 Main St, Florence, MA 01062</h1>
+    <h2>Open Mon-Sun, 10am to 8pm</h2>
+    <h3>Dine-in or Takeout | 123-456-7890</h3>
+  </div>
+
+  <div class="content-wrapper container">
+    <div class="centered-image">
+      <img src="image1.jpg" alt="Centered Image">
+    </div>
+  </div>
+
+
+  <footer>
+    <h4>Made with lots of labor by ChatGPT</h4>
+  </footer>
+</body>
+</html>
