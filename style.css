@@ -13,6 +13,10 @@ header {
   text-align: center;
 }
 
+.hours {
+  text-align: left;
+  display: inline-block;
+}
 
 .chinese {
   font-family: 'ZCOOL KuaiLe', sans-serif;
@@ -51,47 +55,24 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  ul {
+    list-style-type: none;
+  }
 }
 
 .content-wrapper h1 {
     font-size: 2vw;  
 }
 .content-wrapper h2 {
-    font-size: 1vw;  
+    font-size: 3vw;  
 }
 .content-wrapper h3 {
-    font-size: 1vw;  
+    font-size: 3vw;  
 }
 
-/* Menu Styles */
-.menu {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.menu-item {
-  background-color: #f2f2f2;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.menu-item img {
-  width: 100%;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-.menu-item h3 {
-  margin: 0;
-  font-size: 18px;
-}
-
-.menu-item p {
-  margin: 0;
-  font-size: 14px;
-  color: #777;
+.menu_pdf {
+  width: 50%;
+  height: 100%;
 }
 
 .centered-image {
